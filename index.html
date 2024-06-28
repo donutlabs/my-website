@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta name="author" content="Spradzilla">
+    <meta name="description" content="Experienced web developer and systems engineer that loves to find solutions to real-world problems.">
+    <meta name="keywords" content="web developer, sysadmin, systems engineer, resume, chris, spradlin, christopher spradlin, chris spradlin, systems administrator, hire me">
+    <title>My Professionalish Website | Christopher Spradlin</title>
+        <link href="assets/images/favicon.ico" rel="icon">
+    <link href="vendor/css/bundle.min.css" rel="stylesheet">
+    <link href="vendor/css/LineIcons.min.css" rel="stylesheet">
+    <link href="vendor/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="vendor/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/css/tootik.min.css" rel="stylesheet">
+    <link href="assets/css/line-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/jquery.pagepiling.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="90">
+
+<!-- Yay for spinny preloaders -->
+<div class="loader-bg">
+    <div id="container">
+        <svg viewBox="0 0 100 100">
+            <defs>
+                <filter id="shadow">
+                    <feDropShadow dx="0" dy="0" stdDeviation="0.5"
+                                  flood-color="#00C3FF"/>
+                </filter>
+            </defs>
+            <circle id="spinner" style="fill:transparent;stroke:#00C3FF;stroke-width: 8px;stroke-linecap: round;filter:url(#shadow);" cx="50" cy="50" r="45"/>
+        </svg>
+    </div>
+</div>
+<!-- annnnd no more spinny loader, it ended -->
+
+<!-- every site needs a header, amirite? -->
+<header>
+    <!--I guess we can have a menu-->
+    <nav class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line">
+        <a href="#home" title="Logo" class="logo">
+            <!--cool personal logo that I haven't actually made yet but will later, for now, I'll just use my signature-->
+            <div class="chris-logo">
+                <img src="assets/images/logo.png" alt="logo" class="ml-lg-3 m-0">
+            </div>
+        </a>
+
+        <!-- i really want to jump on a side-meny band wagon, so this is me doing just that -->
+        <div class="navigation-toggle">
+            <ul class="slider-social toggle-btn my-0">
+                <li>
+                    <a href="javascript:void(0);" class="sidemenu_btn" id="sidemenu_toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--this is going to be that trendy new side menus navigation -->
+    <div class="side-menu hidden">
+        <span id="btn_sideNavClose">
+          <i class="las la-times btn-close"></i>
+        </span>
+        <div class="inner-wrapper">
+            <nav class="side-nav w-100">
+                <a href="#home" title="Logo" class="logo navbar-brand">
+                    <img src="assets/images/logo.png" alt="logo">
+                </a>
+                <ul class="navbar-nav text-capitalize">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#timeline">Timeline</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonial">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="text-center sidebar_btn">
+                    <a href="assets/download-resume/resume.pdf" download class="btn btn-medium btn-rounded btn-yellow text-capitalize">Download Resume</a>
+                </div>
+            </nav>
+
+            <div class="side-footer w-100">
+                <ul class="social-icons-simple">
+                    <li><a class="social-icon" href="https://www.linkedin.com/in/christopher-spradlin/"><i class="fab fa-linkedin-in"></i> </a> </li>
+                    <li><a class="social-icon" href="https://www.youtube.com/@donutworx"><i class="fab fa-youtube"></i> </a> </li>
+                    <li><a class="social-icon" href="https://discord.com/users/donutlabs"><i class="fab fa-discord"></i> </a> </li>
+                    <li><a class="social-icon" href="https://github.com/donutlabs"><i class="fab fa-github"></i> </a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <a id="close_side_menu" href="javascript:void(0);"></a>
+</header>
+<!-- OFF WITH THE HEAD(ER), thats it no more header -->
+
+<div id="pagepiling">
+
+<!-- first section where Im going to introduce you to, well, myself -->
+    <section class="section slide1 p-0" id="home">
+        <div class="slider-area" id="slider-area">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 image-order">
+
+                </div>
+                <div class="col-12 col-lg-6 text-md-center text-lg-left">
+                    <div class="slider-content">
+                        <h1 class="main-font text-uppercase"><span class="slider-text px-2"> Hello, I'm </span> <span class="d-block text-yellow"> Chris Spradlin.</span></h1>
+                        <p class="pt-3 alt-font content-para">I am a web developer and systems engineer that is basically the digital equivalent of Kramer from Seinfeld. Sometimes my ideas are wonderful. Other times, well, there are no bad ideas, right?</p>
+                    </div>
+                </div>
+            </div>
+            <!-- hotspots are trendy right now, I'll use some of those, count em down like sesame street -->
+            <!-- one hotspot, ahh ahh ahh -->
+            <div class="circle-one">
+                 <span data-tootik="About" data-tootik-conf="right dark square shadow">
+                    <a href="#about">
+                        <span class="animated-circle position-relative"></span>
+                    </a>
+                 </span>
+            </div>
+            <!-- two hotspot, ahh ahh ahh -->
+            <div class="circle-two">
+                 <span data-tootik="Timeline" data-tootik-conf="left dark square shadow">
+                    <a href="#timeline">
+                        <span class="animated-circle position-relative"></span>
+                    </a>
+                 </span>
+            </div>
+            <!-- three hotspot, ahh ahh ahh -->
+            <div class="circle-three">
+              <span data-tootik="blog" data-tootik-conf="top dark square shadow">
+                    <a href="#blog">
+                        <span class="animated-circle position-relative"></span>
+                    </a>
+              </span>
+            </div>
+            <!-- four hotspot, ahh ahh ahh -->
+            <div class="circle-four">
+                  <span data-tootik="Testimonials" data-tootik-conf="bottom dark square shadow">
+                    <a href="#testimonial">
+                        <span class="animated-circle position-relative"></span>
+                    </a>
+                  </span>
+            </div>
+            <!-- five hotspot, ahh ahh ahh -->
+            <div class="circle-five">
+                  <span data-tootik="Contact" data-tootik-conf="bottom dark square shadow">
+                        <a href="#contact">
+                            <span class="animated-circle position-relative"></span>
+                        </a>
+                  </span>
+            </div>
+        </div>
+    </section>
+<!-- end of introduction, you know my name now, and that Im into trendy interweb stuff -->
+
+<!-- second section where I'll list some skillllzzz -->
+    <section class="section slide2 skills" id="about">
+        <div class="container">
+            <div class="row pb-5">
+                <div class="col-12 col-md-7 pl-md-0">
+                    <h3 class="main-font text-uppercase"><span class="text-yellow d-block"> Developer & </span> <span> IT Professional </span></h3>
+                    <p class="py-2 alt-font">I specialize in creating effective digital solutions and building the infrastructure they run on. Sometimes I do other stuff too.</p>
+                </div>
+                <div class="col-12 col-md-5 text-md-right pt-4 pt-md-0">
+                    <h2 class="m-0 text-yellow main-font">20+</h2>
+                    <p class="alt-font">Years of Experience</p>
+                </div>
+            </div>
+            <div class="row pt-md-5 skill-box">
+                <div class="col-12 col-md-6">
+
+                    <div class="row">
+                        <!-- core skill 1 -->
+                        <div class="col-12 col-md-6 text-center text-md-left pl-md-0">
+                            <h4 class="main-font text-yellow skill">WEB DEVELOPMENT</h4>
+                            <p class="alt-font text-white mt-3">Develop lean, secure relentlessly, make it prettier - scale effectively.</p>
+                        </div>
+                        <!-- core skill 2 -->
+                        <div class="col-12 col-md-6 pt-5 pt-md-0 pr-md-0 text-center text-md-left">
+                            <h4 class="main-font text-yellow skill">SYSTEMS ENGINEERING</h4>
+                            <p class="alt-font text-white mt-3">Lock it down and automate every possible thing. Always on-call.</p>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <!-- core skill trace -->
+                        <div class="col-12 col-md-6 text-center text-md-left pl-md-0">
+                            <h4 class="main-font text-yellow skill">DIGITAL MARKETING</h4>
+                            <p class="alt-font text-white mt-3">From websites, SEO, paid search, and even email campaigns.</p>
+                        </div>
+                        <!-- core skill four -->
+                        <div class="col-12 col-md-6 pt-5 pt-md-0 text-center text-md-left pr-md-0">
+                            <h4 class="main-font text-yellow skill">CAT WHISPERING</h4>
+                            <p class="alt-font text-white mt-3">I speak to cats and have them do my bidding. It works sometimes.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- more skills but like individual things now -->
+                <div class="col-12 col-md-5 offset-md-1 text-left pr-md-0 bars-section">
+                    <ul class="right-side-skills">
+                        <!-- skills 1&2 -->
+                        <li class="custom-progress text-white">
+                            <h6 class="mb-0 text-capitalize mons-font">HTML<span class="float-right">WordPress</span></h6>                        
+                        </li>
+                        <!-- skills 3&4 -->
+                        <li class="custom-progress text-white">
+                            <h6 class="mb-0 text-capitalize mons-font">CSS<span class="float-right">WooCommerce</span></h6>                        
+                        </li>
+                        <!-- skills 5&6 -->
+                        <li class="custom-progress text-white">
+                            <h6 class="mb-0 text-capitalize mons-font">JavaScript<span class="float-right">Windows Server</span></h6>                        
+                        </li>
+                        <!-- skills 7&8 -->
+                        <li class="custom-progress text-white">
+                            <h6 class="mb-0 text-capitalize mons-font">PHP<span class="float-right">Linux</span></h6>                        
+                        </li>
+                        <!-- skills 9&10 -->
+                        <li class="custom-progress text-white">
+                            <h6 class="mb-0 text-capitalize mons-font">Python<span class="float-right">Azure</span></h6>                        
+                        </li>
+                        <!-- skills 11&12 -->
+                        <li class="custom-progress text-white">
+                            <h6 class="mb-0 text-capitalize mons-font">SQL (My, MS, Postgres)<span class="float-right">AWS</span></h6>                        
+                        </li>
+                         <!-- skills 13&14 -->
+                         <li class="custom-progress text-white">
+                            <h6 class="mb-0 text-capitalize mons-font">Powershell<span class="float-right">i &hearts; scrum </span></h6>                        
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- no more skills -->
+
+<!-- lets make a fun timeline -->
+    <section class="section slide3 timeline-bg" id="timeline">
+        <div class="container">
+            <div class="row pb-5 heading-row">
+                <div class="col-12 col-md-7">
+                    <h3 class="main-font text-uppercase"><span class="text-yellow d-block text-uppercase"> My History </span> <span> & A Fun Timeline </span></h3>
+                    <p class="py-2 alt-font">Stuff I've done, places I've been, tables I've dropped...</p>
+                </div>
+                <div class="col-12 col-md-5 text-md-right pt-4 pt-md-0">
+                    <h3 class="m-0 text-yellow main-font">Certified</h2>
+                    <p class="alt-font">Gray Beard</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="cd-horizontal-timeline loaded">
+                        <div class="timeline">
+                            <!-- timeline events -->
+                            <div class="events-wrapper">
+                                <div class="events" style="width: 2200px;">
+                                    <ol>
+                                        <li><a href="#" data-date="16/01/2017" class="older-event selected">1998</a></li>
+                                        <li><a href="#" data-date="28/02/2017" style="left: 200px;">2006</a></li>
+                                        <li><a href="#" data-date="20/04/2017" style="left: 200px;">2010</a></li>
+                                        <li><a href="#" data-date="20/05/2017" style="left: 200px;">2012</a></li>
+                                        <li><a href="#" data-date="09/07/2017" style="left: 200px;">2014</a></li>
+                                        <li><a href="#" data-date="30/08/2017" style="left: 200px;">2015</a></li>
+                                        <li><a href="#" data-date="15/09/2017" style="left: 200px;">2017</a></li>
+                                        <li><a href="#" data-date="01/11/2017" style="left: 200px;">2020</a></li>
+                                        <li><a href="#" data-date="10/12/2017" style="left: 200px;">2023</a></li>
+                                        <li><a href="#" data-date="19/01/2018" style="left: 200px;">Today</a></li>                                    </ol>
+                                    <span class="filling-line" aria-hidden="true"></span>
+                                </div>
+                                <!-- nav -->
+                            </div>
+                            <ul class="cd-timeline-navigation">
+                                <li><a href="#" class="prev">Prev</a></li>
+                                <li><a href="#" class="next">Next</a></li>
+                            </ul>
+                            <!-- end ze nav -->
+                        </div>
+                        <!-- timeline content -->
+                        <div class="events-content">
+                            <ol>
+                                <li class="selected" data-date="16/01/2017">
+                                    <!-- 1 -->
+                                    <div class="col-12 pl-md-0">
+                                      <div class="main-content text-uppercase">
+                                          <h4 class="text-yellow main-font font-weight-normal">1998</h4>
+                                          <h2 class="main-font">Started learning to code.</h2>
+                                      </div>
+                                  </div>
+                                    <!-- sub-1 -->
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-md-6 pl-md-0">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">HTML</h5>
+                                                <p class="alt-font">When geocities page builder wouldn't do what I wanted it to, 12 year old me thought, "I'll learn HTML!". </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 pr-md-0">                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">Visual Basic</h5>
+                                                <p class="alt-font">I wanted to create chatbots to troll MSN Gaming Zone, so for all the wrong reasons, I learned VB. Visual Studio came on 6 CD's back then. </p>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </li>
+                                <li data-date="28/02/2017">
+                                    <!-- 2 -->
+                                    <div class="col-12 pl-md-0">
+                                        <div class="main-content text-uppercase">
+                                            <h4 class="text-yellow main-font font-weight-normal">2006 - Teleperformance USA</h4>
+                                            <h2 class="main-font">First not freelance big kid job</h2>
+                                        </div>
+                                    </div>
+                                    <!-- sub-2 -->
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-md-6 pl-md-0">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">Developer</h5>
+                                                <p class="alt-font">Created multiple proprietary web based tools using HTML, CSS, PHP, & MySQL for the technical support department, which after 3.5 years had over 52 million page views.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 pr-md-0">                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">Technical Operations Manager</h5>
+                                                <p class="alt-font">During development downtime, I handled all operations management for third shift managing the call volume inbound and outbound for a 500 seat tech support center. </p>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </li>
+                                <li data-date="20/04/2017">
+                                    <!-- 3 -->
+                                    <div class="col-12 pl-md-0">
+                                        <div class="main-content text-uppercase">
+                                            <h4 class="text-yellow main-font font-weight-normal">2010 - Working contracts with local MSPs</h4>
+                                            <h2 class="main-font">Began focusing more on Systems & Networking</h2>
+                                        </div>
+                                    </div>
+                                    <!-- Sub-3 -->
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-md-6 pl-md-0">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">Systems Administrator</h5>
+                                                <p class="alt-font">Working mainly with Windows Server environments, I handled everything from Active Directory, Exchange, Group Policy Management, RDS, DNS, DHCP, etc.. Began automating tasks with VBS.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 pr-md-0">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">Network Specialist</h5>
+                                                <p class="alt-font">Managed network infrastructure, including configuring/troubleshooting firewalls, routers, and switches from vendors like Cisco and SonicWall while ensuring performance & security.  </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li data-date="20/05/2017">
+                                    <!-- 4 -->
+                                    <div class="col-12 pl-md-0">
+                                        <div class="main-content text-uppercase">
+                                            <h4 class="text-yellow main-font font-weight-normal">2012 - Diversifie Employee Solutions</h4>
+                                            <h2 class="main-font">Combining Development & Systems</h2>
+                                        </div>
+                                    </div>
+                                    <!-- Sub-4 -->
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-md-4 pl-md-0">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">Systems Administrator</h5>
+                                                <p class="alt-font">Managed multiple Windows Server Environments while spearheading multiple projects such as, VoIP implementation, O365 Migration, Paperless Initiatives, Quickbooks Migration, etc.. </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-4">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">Web Developer</h5>
+                                                <p class="alt-font">Created and maintained the websites for DES and all of it's 4 subsidiaries (Touchtone Marketing, Clinical Research Associates, Diverse Benefit Solutions, Exit Interviews).</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-4 pr-md-0">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">Digital Marketing Specialist</h5>
+                                                <p class="alt-font">Developed email campaigns, paid search initiatives, designed publications with Photoshop & Illustartor for print & web, created multiple video promos with Premier and After Effects.  </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li data-date="09/07/2017">
+                                    <!-- 5 -->
+                                    <div class="col-12 pl-md-0">
+                                        <div class="main-content text-uppercase">
+                                            <h4 class="text-yellow main-font font-weight-normal">2014 - Event 38 Unmanned Systems</h4>
+                                            <h2 class="main-font">commercial grade fixed wing drones</h2>
+                                        </div>
+                                    </div>
+                                    <!-- sub-5 -->
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-md-4 pl-md-0">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">Test Engineer & Pilot</h5>
+                                                <p class="alt-font"> Programed & test flew all UAV systems after manufacturing before they are sent to the client. Review log data from unmanned flights in order to make future flights/products more optimal.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-4">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">Web Developer </h5>
+                                                <p class="alt-font">Created a new website for the company including implementing a full ecommerce solution using HTML, CSS, PHP, MySQL, and WordPress to replace their old Volusion platform. </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-4 pr-md-0">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">Support Engineer</h5>
+                                                <p class="alt-font">Troubleshoot pixhawk based UAV systems & C# / Python based planning software remotely. Support the newly launched Drone Data Management System to enable clients to analyze UAV imagery.  </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li data-date="30/08/2017">
+                                    <!-- 6 -->
+                                    <div class="col-12 pl-md-0">
+                                        <div class="main-content text-uppercase">
+                                            <h4 class="text-yellow main-font font-weight-normal">2015 - Future Point of Sale (Now Shift4)</h4>
+                                            <h2 class="main-font">Systems, Development, & adventures in SQL</h2>
+                                        </div>
+                                    </div>
+                                    <!-- sub-6 -->
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-md-6 pl-md-0">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">Systems Administrator</h5>
+                                                <p class="alt-font">Daily interaction with SQL writing advanced queries for clients.  Support the IT needs of clients running Windows Server and POS software.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 pr-md-0">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">Web Developer</h5>
+                                                <p class="alt-font">Design, implement, & maintain FPOS Ohio Website using HTML, CSS, PHP, & WordPress CMS. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li data-date="15/09/2017">
+                                    <!-- 7 -->
+                                    <div class="col-12 pl-md-0">
+                                        <div class="main-content text-uppercase">
+                                            <h4 class="text-yellow main-font font-weight-normal">2017 - CXT Software</h4>
+                                            <h2 class="main-font">SaaS application support & technical projects</h2>
+                                        </div>
+                                    </div>
+                                    <!-- sub-7 -->
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-md-6 pl-md-0">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">Support Engineer</h5>
+                                                <p class="alt-font">Support the on-premise & hosted CXT Software clients running on Windows Server environments. Daily interaction with MSSQL including administration & writing advanced queries.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 pr-md-0">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">Project Specialist</h5>
+                                                <p class="alt-font">Performed technical project work such as systems migrations, VoIP implementation, AWS Lab Development, and writing CSS for clients to white label their public facing applications. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li data-date="01/11/2017">
+                                    <!-- 8 -->
+                                    <div class="col-12 pl-md-0">
+                                        <div class="main-content text-uppercase">
+                                            <h4 class="text-yellow main-font font-weight-normal">2020 - Freelance Contractor</h4>
+                                            <h2 class="main-font">The Pandemic Years</h2>
+                                        </div>
+                                    </div>
+                                    <!-- sub-8 -->
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-md-12 pl-md-0">
+                                            <div class="sub-content">
+                                                <p class="alt-font">We all know what happened in 2020, but already having a foothold in the industry I was able to freelance through this time taking on various development contracts and the occasional systems engineering work. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li data-date="10/12/2017">
+                                    <!-- 9 -->
+                                    <div class="col-12 pl-md-0">
+                                        <div class="main-content text-uppercase">
+                                            <h4 class="text-yellow main-font font-weight-normal">2023 - Kleidon & Associates</h4>
+                                            <h2 class="main-font">Developing websites & other digital solutions</h2>
+                                        </div>
+                                    </div>
+                                    <!-- sub-9 -->
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-md-12 pl-md-0">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">Web Developer</h5>
+                                                <p class="alt-font">Crafted websites utilizing HTML, CSS, JavaScript, PHP, MySQL, & CMS platforms such as WordPress. Developed custom WordPress solutions, including plugins & themes, to meet client needs while ensuring site efficiency and security. Solved the tech debt & optimized websites of both public & internal facing projects.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li data-date="19/01/2018">
+                                    <!-- 10 -->
+                                    <div class="col-12 pl-md-0">
+                                        <div class="main-content text-uppercase">
+                                            <h4 class="text-yellow main-font font-weight-normal">2024 - Today!</h4>
+                                            <h2 class="main-font"> Open to contracts or joining a full-time team</h2>
+                                        </div>
+                                    </div>
+                                    <!-- Sub-10-->
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-md-12 pl-md-0">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">Development, Systems, Digital Marketing Specialist</h5>
+                                                <p class="alt-font"> If you are in need of a versitile multi-disciplined profesional for your project, or you are looking to add a full-time member to your team, <a href="#contact">we should talk</a>!</p>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+                                </li>
+
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- end of our fun timeline :-(  -->
+
+<!-- i know nobody is going to read any of it, but Im going to add my blog -->
+    <section class="section slide4 blog-bg" id="blog">
+        <div class="container">
+            <div class="row pb-5 heading-row">
+                <div class="col-12 col-md-7">
+                    <h3 class="main-font text-uppercase"><span class="text-yellow d-block"> My Professional & Sometimes</span> <span>Not So Professional Blog </span></h3>
+                    <p class="py-1 alt-font">Sometimes I write about industry trends, other times I write about climbing mountains, or how a stray cat let me pet them that day.</p>
+                </div>
+                <div class="col-12 col-md-5 text-md-right pt-4 pt-md-0">
+                    <h3 class="m-0 text-yellow main-font">Totally A</h3>
+                    <p class="alt-font">Legit Writer</p>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+<!-- end the bloggy -->
+
+<!-- lets get some references in here -->
+    <section class="section slide6 testimonial-bg" id="testimonial">
+        <div class="container">
+            <div class="row pb-5 heading-row">
+                <div class="col-12 col-md-7">
+                    <h3 class="main-font text-uppercase"><span class="text-yellow d-block text-uppercase"> Clients & colleagues </span> <span> love the work i do </span></h3>
+                    <p class="py-2 heading-row alt-font">Sometimes people say really cool things about me.</p>
+                </div>
+            </div>
+
+            <div class="row pt-3">
+                <div class="col-12">
+                    <!-- sliders are still cool, right? -->
+                    <div id="testimonial-carousal" class="testimonial-owl owl-carousel owl-theme">
+                        <!-- ref-1 -->
+                        <div class="item text-center">
+                            <div class="icon-quotes mb-4">
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                            <div class="description">
+                                <p class="text-grey paragraph">Chris is an outstanding support engineer and project specialist who truly shines in his ability to take initiative. Chris consistently goes above and beyond to ensure project success, always taking the lead in identifying potential roadblocks and finding creative solutions. His dedication, technical expertise, and commitment to delivering exceptional results have been instrumental in our team's achievements.Alexi </p>
+                            </div>
+                            <div class="testimonial-tittle mt-3 mb-3">
+                                <h4 class="mb-0 text-yellow main-font font-weight-normal text-uppercase">Rick Baker</h4>
+                            </div>
+                        </div>
+                        <!-- ref-2 -->
+                        <div class="item text-center">
+                            <div class="icon-quotes mb-4">
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                            <div class="description">
+                                <p class="text-grey paragraph">I worked with Chris for several years, during which time he, among numerous other accomplishments, wrote an entire knowledgebase and callflow system from scratch on his own initiative. This tool dropped our average time to resolution by over a minute, while increasing quality scores by over 10 percent. Chris is always eager to take on new challenges, and is constantly growing his already remarkable technical skill set.</p>
+                            </div>
+                            <div class="testimonial-tittle mt-3 mb-3">
+                                <h4 class="mb-0 text-yellow main-font font-weight-normal text-uppercase">Ryan Casey</h4>
+                            </div>
+                        </div>
+                        <!-- ref-3 -->
+                        <div class="item text-center">
+                            <div class="icon-quotes mb-4">
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                            <div class="description">
+                                <p class="text-grey paragraph">Chris has proven to be an exceptionally talented developer whose coding skills are matched only by his marketing insights. He consistently delivers innovative solutions that drive both technical excellence and market success. His ability to bridge the gap between development and marketing makes him an invaluable asset to any team.</p>
+                            </div>
+                            <div class="testimonial-tittle mt-3 mb-3">
+                                <h4 class="mb-0 text-yellow main-font font-weight-normal text-uppercase">Alexi Volkov</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+<!-- ha, i have very few friends :-(, end the refs  -->
+
+<!-- START CONTACT -->
+<section class="section slide5 contact-bg" id="contact">
+    <div class="container">
+        <div class="row pb-5">
+            <div class="col-12 col-md-7">
+                <h3 class="main-font text-uppercase"><span class="text-yellow d-block text-uppercase"> Contact Me </span> <span> & Lets Talk</span></h3>
+                <p class="py-2 alt-font">I am available to work on your project.</p>
+            </div>
+            <div class="col-12 col-md-5 text-md-right pt-4 pt-md-0">
+                <h2 class="m-0 text-yellow main-font font-weight-bold">Phone</h2>
+                <p class="alt-font">+1 (234) 206-0723</p>
+            </div>
+        </div>
+        <form target="_blank" action="https://formsubmit.co/harrychrisnahs@gmail.com" method="POST" class="contact-form">
+            <div class="form-group">
+              <div class="form-row">
+                <div class="col">
+                  <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                </div>
+                <div class="col">
+                  <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+          </form>
+    </div>
+</section>
+<!-- END CONTACT -->
+</div>
+
+<!-- no one is going to steal this garbage -->
+<div class="slider-bottom">
+    <div class="slider-footer w-auto">
+        <ul class="social-icons-simple">
+            <li><a class="social-icon" href="https://www.linkedin.com/in/christopher-spradlin/"><i class="fab fa-linkedin-in"></i> </a> </li>
+            <li><a class="social-icon" href="https://www.youtube.com/@donutworx"><i class="fab fa-youtube"></i> </a> </li>
+            <li><a class="social-icon" href="https://discord.com/users/donutlabs"><i class="fab fa-discord"></i> </a> </li>
+            <li><a class="social-icon" href="https://github.com/donutlabs"><i class="fab fa-github"></i> </a> </li>
+        </ul>
+    </div>
+    <span class="slider-copyright text-grey">© Christopher Spradlin 2024.</span>
+</div>
+<!-- end copyright even though we don't need it -->
+
+<!-- pull in ze' SCRIPTS -->
+<script src="vendor/js/bundle.min.js"></script>
+<!-- plugin js -->
+<script src="vendor/js/jquery.appear.js"></script>
+<script src="vendor/js/jquery.fancybox.min.js"></script>
+<script src="vendor/js/owl.carousel.min.js"></script>
+<!-- custom-ish JS -->
+<script src="assets/js/jquery.pagepiling.min.js"></script>
+<script src="assets/js/timeline.js"></script>
+<script src="vendor/js/contact_us.js"></script>
+<script src="assets/js/script.js"></script>
